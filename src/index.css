@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: left;
+  font-weight: 400;
+}
+
+@media only screen and (max-width:500px) {
+  body {padding:88px 24px}
+}
+
+.row {display: flex;min-height:100vh}
+
+h1,h2,p {margin:0}
